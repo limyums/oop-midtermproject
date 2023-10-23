@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Mini-Shop</title>
+  <!-- jQuery link -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" defer></script>
+  <!-- gsap link -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+  <link rel="stylesheet" href="assets/styles/index.css">
+</head>
+
+<body>
+  <div id="app">
+    <div class="left-side">
+      <section class="cart">
+        <h2>Total: $0</h2>
+        <button>Order Now!</button>
+      </section>
+      <section class="cart-list">
+      </section>
+    </div>
+    <div class="right-side">
+      <div class="category-list"></div>
+      <div class="product-list" id="prod-list">
+      </div>
+    </div>
+  </div>
+</body>
+<script type="module" src="assets/scripts/app.js" defer></script>
+
+</html>
